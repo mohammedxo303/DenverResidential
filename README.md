@@ -1,2 +1,10 @@
 # DenverResidential
 Segmentation of the Denver Metro and  assessment of each subsection for investment viability
+
+
+
+This project was done on publicly available Zillow market data. I chose the rental and housing price time series national csv files. There were three main objectives in this analysis. The first was to split the Denver metro into subsected zones that made sense based on economic interconnection, significant avenue borders, and social perception. Zip codes were grouped into these zones from the data available. The second objective was to identify and visualize hierarchy and trends among each zone's residential rental prices over time. The third objective was to merge the housing price data with the rental data and calculate a realistic ROI projection tailored to each zone accounting for ownership expense. 
+
+In my opinion, the data showed that Highlands Ranch, Lone Tree and Castle Rock composed the area of greatest investment potential leading the pack in rent prices and above average ROI even taking price into account. Purely economically, ROI was strong in the upscale neighborhoods of Centennial, Parker, and parts of Thornton. Stapleton also emerged as a strong investment candidate with ROI projections suggesting that initial investment may be recouped in under five years. Newer developments south of DIA such as Aurora Highlands show great potential to be future-wise investments, especially taking into account constant eastward expansion in the metro and talks of attracting Denver favorites such as Elitch Gardens and even the Broncos' stadium for relocation. 
+
+An important part of portfolio projects for me is creating them so that they may be expanded and continuously developed. With this, I'd like to explore regression models to predict future rental and housing prices. Since the data was taken from nationwide datasets and extracted therefrom, and null values were accounted for by forward filling data or deleting rows altogether, there is some accuracy left to be desired. 
